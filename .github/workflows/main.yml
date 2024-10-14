@@ -105,7 +105,6 @@ jobs:
         npm ci
 
     - name: Test frontend
-      # Запускаем тесты
       run: |
         cd frontend/
         npm run test
